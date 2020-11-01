@@ -1,0 +1,12 @@
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.csprojAssemblyReference.cache
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.AssemblyInfoInputs.cache
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.AssemblyInfo.cs
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\chromedriver.exe
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\MyWebScrapper.BLL.deps.json
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\MyWebScrapper.BLL.dll
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\MyWebScrapper.BLL.pdb
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\MyWebScrapper.DAL.dll
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\bin\Debug\netcoreapp3.1\MyWebScrapper.DAL.pdb
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.csproj.CopyComplete
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.dll
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.BLL\obj\Debug\netcoreapp3.1\MyWebScrapper.BLL.pdb

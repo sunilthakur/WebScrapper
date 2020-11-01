@@ -1,0 +1,8 @@
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\bin\Debug\netcoreapp3.1\MyWebScrapper.DAL.deps.json
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\bin\Debug\netcoreapp3.1\MyWebScrapper.DAL.dll
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\bin\Debug\netcoreapp3.1\MyWebScrapper.DAL.pdb
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\obj\Debug\netcoreapp3.1\MyWebScrapper.DAL.csprojAssemblyReference.cache
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\obj\Debug\netcoreapp3.1\MyWebScrapper.DAL.AssemblyInfoInputs.cache
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\obj\Debug\netcoreapp3.1\MyWebScrapper.DAL.AssemblyInfo.cs
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\obj\Debug\netcoreapp3.1\MyWebScrapper.DAL.dll
+D:\Sunil-SampleProjects\MyWebScrapper\MyWebScrapper.DAL\obj\Debug\netcoreapp3.1\MyWebScrapper.DAL.pdb

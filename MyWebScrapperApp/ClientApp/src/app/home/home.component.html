@@ -1,0 +1,68 @@
+<div class="container-fluid">
+  <form [formGroup]="form">
+
+    <div class="row mt-3">
+      <div class="col-md-10">
+        <input type="url" class="form-control" placeholder="Please input url here with http/https" id="s_url" name="s_url" formControlName="s_url" />
+        <div style="color:red" *ngIf="s_url.value && s_url.invalid">
+          Not a valid URL
+        </div>
+        <div style="color:red" *ngIf="loading">
+          Analysing website and generating report
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-primary" [disabled]="form.invalid" (click)="scrapeSite();">
+          <span class="spinner-border spinner-border-sm" *ngIf="loading" role="status" aria-hidden="true"></span>
+          <span class="ml-2" *ngIf="loading">Loading...</span>
+          <span class="ml-2" *ngIf="!loading">Scrape</span>
+        </button>
+      </div>
+    </div>
+    <div style="width:100%" id="scrapeResult" #scrapeResult>
+      <div class="row mt-2" *ngIf="showData">
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-12 text-center text-danger font-weight-bold">Scrapping Results</div>
+        </div>
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-3 text-danger font-weight-bold">Site Name</div>
+          <div class="col-md-9">{{scrapeResponse.siteName}}</div>
+        </div>
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-3 text-danger font-weight-bold">Site Title</div>
+          <div class="col-md-9">{{scrapeResponse.title}}</div>
+        </div>
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-3 text-danger font-weight-bold">Meta Description</div>
+          <div class="col-md-9">{{scrapeResponse.metaDescription}}</div>
+        </div>
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-3 text-danger font-weight-bold">Site Keywords</div>
+          <div class="col-md-9">{{scrapeResponse.metaKeywords}}</div>
+        </div>
+        <div class="col-md-12" style="width:100%">
+          <div class="col-md-3 text-danger font-weight-bold">Screen Capture</div>
+          <div class="col-md-12" style="width:100%">
+            <img style="width:100%;" src="assets/{{scrapeResponse.screenShot}}" class="img-responsive" alt="Screen Capture" />
+          </div>
+        </div>
+        <div class="col-md-12 mt-1" style="max-height:500px;overflow-y:auto">
+          <div class="col-md-3 text-danger font-weight-bold">HyperLinks</div>
+          <div class="col-md-12" style="width:100%" *ngFor="let item of scrapeResponse.hyperlinks">{{item}}</div>
+        </div>
+        <div class="col-md-12 mt-1 mb-2" style="max-height:500px;overflow-y:auto">
+          <div class="col-md-3 text-danger font-weight-bold">Social Media Links</div>
+          <div class="col-md-12" style="width:100%" *ngFor="let item of scrapeResponse.socialMediaLinks">{{item}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-12 text-center">
+        <button (click)="downloadAsPDF()" class="btn btn-secondary" [disabled]="isReport" *ngIf="showReportButton">
+          <span class="ml-2" *ngIf="isReport">Generating Report, please wait...</span>
+          <span class="ml-2" *ngIf="!isReport">Generate Report</span>
+        </button>       
+      </div>
+    </div>
+  </form>
+</div>
